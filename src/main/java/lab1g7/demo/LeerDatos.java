@@ -7,6 +7,7 @@ import java.io.IOException;
 public class LeerDatos {
 
 
+
     public static void lecturaDeDatos (String ruta){
 
         BufferedReader bufferedReader = null;
@@ -38,5 +39,6 @@ public class LeerDatos {
         }
 
     }
+
 
 }

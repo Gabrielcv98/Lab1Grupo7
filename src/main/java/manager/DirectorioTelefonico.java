@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DirectorioTelefonico {
 
-    public List agregar(){
+    public static List agregar(){
         Usuario usuario = new Usuario();
         Scanner sn = new Scanner(System.in);
 
@@ -28,6 +28,18 @@ public class DirectorioTelefonico {
     return usuarioList;
     };
 
+
+    public static List buscar(){
+
+
+        Scanner sn = new Scanner(System.in);
+
+        System.out.println("Buscador :" );
+        String buscador = sn.nextLine();
+
+
+
+    }
 
 
 

@@ -31,6 +31,9 @@ public class Lab1G7Application {
         switch (opcion) {
             case 1:
                 System.out.println("1. Leer Datos");
+
+                String ruta =  "";
+                LeerDatos.lecturaDeDatos(ruta);
                 break;
             case 2:
                 System.out.println("2. Agregar Usuario");

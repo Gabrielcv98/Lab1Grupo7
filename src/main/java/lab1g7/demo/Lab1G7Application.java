@@ -19,10 +19,7 @@ public class Lab1G7Application {
 
     {
 
-        System.out.println("1. Opcion 1");
-        System.out.println("2. Opcion 2");
-        System.out.println("3. Opcion 3");
-        System.out.println("4. Salir");
+
 
         System.out.println("Escribe una de las opciones");
 
